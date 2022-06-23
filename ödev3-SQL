@@ -1,0 +1,13 @@
+soru1
+SELECT country FROM country
+WHERE country LIKE 'A%a';
+soru2
+SELECT country FROM country
+WHERE country LIKE  '_____%n'; --(beş adet '_' kullanılmıştır.)
+soru3
+SELECT title FROM film
+WHERE title LIKE  '%t%t%t%t%';
+soru4
+SELECT*FROM film
+WHERE title LIKE 'C%' AND length>90 AND rental_rate=2.99;
+
